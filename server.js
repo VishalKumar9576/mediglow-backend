@@ -31,7 +31,7 @@ socketModule.init(server);
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL
+  origin: "https://medi-glow-2ruvnbjxe-self-taem.vercel.app"
 }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
